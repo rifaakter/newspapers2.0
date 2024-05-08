@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color difine  */
+:root {
+    --background-color: #ffff;
+    --body-background-color: #EEEEEE;
+    --primary-color: #0C88EF;
+    --hover-color: #FF3300;
+    --praymary-black: #404040;
+    --background-color-black: #D0DBE4;
+    --text-color: #ffff;
+}
+
+body {
+
+    background-color: var(--body-background-color);
+}
+
+.content_body {
+    height: 200vh;
+    width: 60vw;
+    background-color: var(--background-color);
+}
+
+.top_menu_section {
+    margin: auto;
+    top: 0;
+    height: 1.823vw;
+    width: 55vw;
+    background-color: var(--primary-color);
+}
+
+.fast_menu_bd {
+    background-color: var(--primary-color);
+}
+
+
+
+.navbar li a {
+    color: var(--praymary-black);
+}
+
+.dropdown-menu {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.heder_content {
+    /* background-color: var(--praymary-black); */
+    margin-top: 10px;
+    color: var(--text-color);
+    border-bottom: 1px solid #40404088;
+    padding-bottom: 10px;
+}
+
+.col-md-4 img {
+    height: 13vh;
+    width: 15vw;
+    padding: 5px;
+}
+
+
+
+/* ============= secend menu css ======= */
+.secend_menu {
+    border-bottom: 2px solid #40404088;
+
+}
+
+.secend_menu ul li a span {
+    padding: 10px 10px;
+}
+
+.secend_menu ul li a span:hover {
+    border-bottom: 2px solid #0C88EF;
+    transition: 0.9ms;
+    color: #FF3300;
+
+}
+
+/* news heading scrolling text  */
+.nws_heading marquee a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.size img {
+    height: 200px;
+}
+
+/* langding page css */
+.left--site-bar {
+    border-left: 2px slategrey;
+}
